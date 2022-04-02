@@ -884,17 +884,7 @@ https://doc.qt.io/qt-5/stylesheet-examples.html#customizing-qframe
 
 --------------------------------------------------------------------------- */
 QLabel {
-  background-color: #19232D;
-  border: 0px solid #455364;
-  padding: 2px;
-  margin: 0px;
-  color: #E0E1E3;
-}
-
-QLabel:disabled {
-  background-color: #19232D;
-  border: 0px solid #455364;
-  color: #9DA9B5;
+  border: 0px solid black;
 }
 
 /* QTextBrowser -----------------------------------------------------------
