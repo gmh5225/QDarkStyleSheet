@@ -280,13 +280,10 @@ https://doc.qt.io/qt-5/stylesheet-examples.html#customizing-qradiobutton
 
 --------------------------------------------------------------------------- */
 QRadioButton {
-  background-color: #19232D;
-  color: #E0E1E3;
-  spacing: 4px;
-  padding-top: 4px;
-  padding-bottom: 4px;
-  border: none;
-  outline: none;
+    spacing: 5px;
+    outline: none;
+    color: #e0e0e0;
+    margin-bottom: 2px;
 }
 
 QRadioButton:focus {
@@ -294,10 +291,7 @@ QRadioButton:focus {
 }
 
 QRadioButton:disabled {
-  background-color: #19232D;
-  color: #9DA9B5;
-  border: none;
-  outline: none;
+ color: #2a2b2f;
 }
 
 QRadioButton QWidget {
@@ -310,11 +304,8 @@ QRadioButton QWidget {
 }
 
 QRadioButton::indicator {
-  border: none;
-  outline: none;
-  margin-left: 2px;
-  height: 14px;
-  width: 14px;
+    width: 21px;
+    height: 21px;
 }
 
 QRadioButton::indicator:unchecked {
